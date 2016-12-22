@@ -1,0 +1,7 @@
+---
+# defaults file for rsync_scripts
+
+rsync_script_users_local_home    : '/home/<user_name>'
+rsync_script_backup_server       : 'my.backup.server'
+rsync_script_user_home_on_server : {{ rsync_script_users_local_home }}
+
